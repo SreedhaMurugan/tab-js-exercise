@@ -11,3 +11,4 @@ function tabFunction(evt, Name) {
   document.getElementById(Name).style.display = 'block';
   evt.currentTarget.className += ' active';
 }
+document.getElementById('defaultOpen').click();
